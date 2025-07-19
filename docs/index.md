@@ -1,59 +1,41 @@
-# 🕵️‍♀️ Steganography Demo: Hiding Messages in Images
+<!-- Banner -->
+<h1 align="center">
+  Steganography Demo  
+</h1>
+<p align="center">
+  <strong>Hiding Secret Messages Inside Innocent Images</strong><br>
+  <em>A simple web-based tool demo powered by GitHub Pages</em>
+</p>
 
-Welcome to the Steganography Demo! This project showcases how messages can be hidden inside images using a web-based encoder/decoder.
-
----
-
-## 🔍 What Is Steganography?
-
-Steganography is the practice of concealing a file, message, image, or video within another file. Unlike encryption, it hides the existence of the communication altogether.
-
-In this demo, we hide text inside images and decode it later — the image looks exactly the same to the human eye!
-
----
-
-## 📷 Demo Flow
-
-1. Select an image (e.g., `original_flower.png`)
-2. Encode a message like:
-   > _"Hi there, I hope you have a blessed day ahead!"_
-3. Download the resulting image: `message_flower.png`
-4. Upload it again to decode and extract the hidden message
+<p align="center">
+  <img src="../img/message_flower.png" alt="Demo Image" width="500"/>
+</p>
 
 ---
 
-## 📊 Project Analysis
+## Overview
 
-Check the [analysis](analysis.md) for insights like:
-- Size difference between images
-- Binary conversion
-- Visual artifacts (none!)
-- Limits of how much you can hide
+This project demonstrates **steganography**, the technique of hiding messages inside images without altering the visible appearance.  
+Messages are converted to binary and embedded in image pixels using a browser-based encoder/decoder.
 
 ---
 
-## 📁 Files
+## Quick Demo
 
-- [`original_flower.png`](../img/original_flower.png)
-- [`message_flower.png`](../img/message_flower.png)
-- [`analysis.md`](analysis.md)
+1. Upload a base image: `original_flower.png`
+2. Enter your secret message (e.g., _"Hi there, I hope you have a blessed day ahead!"_)
+3. Encode → download `message_flower.png`
+4. Upload encoded image to decode the message
 
----
-
-## 📎 Related Links
-
-- 🔗 [GitHub Repository](https://github.com/atharvaa27/steganography_demo)
-- 🛠 [Online Encoder Tool Used](https://stylesuxx.github.io/steganography/)
+No backend — everything stays on your browser!
 
 ---
 
-## ✍️ Author
+## Project Structure
 
-Atharvaa Rane  
-🔗 [GitHub Profile](https://github.com/atharvaa27)
-
----
-
-## 📌 Note
-
-No actual data is uploaded to a server — all processing happens in your browser. Safe for demos & learning purposes.
+```bash
+steganography_demo/
+├── img/              # Sample input/output images
+├── docs/             # GitHub Pages site (this file lives here)
+├── README.md         # Project description
+├── analysis.md       # Analysis of this project
