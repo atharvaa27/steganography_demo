@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="../img/message_flower.png" alt="Demo Image" width="500"/>
+  <img src="../img/Message_Flower.png" alt="Demo Image" width="500"/>
 </p>
 
 ---
